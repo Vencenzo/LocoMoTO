@@ -1,0 +1,23 @@
+Use Case: User Registration
+
+Goal: Register user
+Scope: External, Internal, UI
+Pre-Conditions: N/A
+
+Success State: User is authenticated, contacts are imported, messages/pictures are downloaded from the external server
+Failed State: Failed registration
+Primary Actor: User
+Secondary Actor: N/A
+
+Start Action: User starts registration
+Description:
+1. User enters name and password
+2. Selects register button
+3. External server registers user
+4. Login Use Case
+Variations:
+1. User enters existing username
+2. Cannot connect to external server
+Extensions: N/A
+
+

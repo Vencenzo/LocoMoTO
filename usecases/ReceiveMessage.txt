@@ -1,0 +1,24 @@
+Use Case: Receive Message	
+
+Goal: Receive message
+Scope: Internal, External, UI
+Pre-Conditions: N/A
+
+Success State: The message is recieved successfully
+Failed State: The message was not received or received incorrectly
+Primary Actor: User
+Secondary Actor: External user/contact
+
+Start Action: User receives a message by entering a "trigger zone"
+Description:
+1. Alert the user a message has been received
+2. Display the message 
+3. Store the message internally
+Variations:
+1. Alert is not sounded
+2. Message is not displayed
+Extensions:
+1. How the user is alerted can be changed in settings
+2. How the message is displayed can be changed in settings
+
+

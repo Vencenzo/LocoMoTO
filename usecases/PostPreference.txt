@@ -1,0 +1,22 @@
+Use Case: Post Volume/Callblock Preference	
+
+Goal: Post preference
+Scope: Internal, UI
+Pre-Conditions: Current screen is Map View
+
+Success State: The preference was posted successfully
+Failed State: The preference was not posted or posted incorrectly
+Primary Actor: User
+Secondary Actor: N/A
+
+Start Action: User selects post preference
+Description:
+1. User can set ringtone volume for the "trigger zone" created
+2. User can select a blacklist or whitelist of friends who are not allowed/allowed to call the user
+3. The preference is posted internally 
+Variations:
+1. The ringtone volume does not change when entering/exiting the trigger zone
+2. Whitelisted/blacklisted friends are able to call or not able to call inside the trigger zone
+Extensions: N/A
+
+

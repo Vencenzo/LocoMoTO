@@ -1,0 +1,24 @@
+Use Case: Post Picture	
+
+Goal: Post picture
+Scope: Internal, External, UI
+Pre-Conditions: Current screen is Map View
+
+Success State: The picture was posted successfully
+Failed State: The pciture was not posted or posted incorrectly
+Primary Actor: User
+Secondary Actor: External user/contact
+
+Start Action: User selects post picture
+Description:
+1. User selects a friend(s) as the target of the picture
+2. User is prompted to take/select a picture 
+3. User enters a caption for the picture
+4. User enters a time limit for the picture message
+5. The picture is posted to the external devices
+Variations:
+1. The picture is not sent to all users
+2. The time limit does not work correctly
+Extensions: N/A
+
+

@@ -1,0 +1,20 @@
+Use Case: Select Map View	
+
+Goal: Display context menu
+Scope: UI
+Pre-Conditions: Current screen is Map View
+
+Success State: Context menu displayed
+Failed State: The context menu does not popup 
+Primary Actor: User
+Secondary Actor: N/A
+
+Start Action: User touches/clicks map view 
+Description:
+1. The user touches/clicks the map view and drags to create a "trigger zone" circular area on the map
+2. Context menu is displayed for the "trigger zone" listing actions: post message, post todo, post preferences
+Variations:
+1. Not all options are displayed
+Extensions: Preferences is named something different: Location Sensitive Service Customization
+
+

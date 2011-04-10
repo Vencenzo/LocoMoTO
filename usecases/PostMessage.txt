@@ -1,0 +1,27 @@
+Use Case: Post Message	
+
+Goal: Post message
+Scope: Internal, External, UI
+Pre-Conditions: Current screen is Map View
+
+Success State: The message was posted successfully
+Failed State: The message was not posted or posted incorrectly
+Primary Actor: User
+Secondary Actor: External user/contact
+
+Start Action: User selects post message
+Description:
+1. Display selection screen asking the user if the message is for him/her or a friend
+2. Friend Selected
+	a. User selects a friend(s) as the target of the message
+	b. User types in the message
+	c. User sets a time limit for the message 
+3. Self Selected:
+	a. User types in the message
+	b. User selects a time limit
+4. Message is posted to internal and external devices
+Variations:
+1. The message is not sent to all users
+Extensions: N/A
+
+

@@ -1,0 +1,27 @@
+Use Case: Login
+
+Goal: Log in user
+Scope: External, Internal, UI
+Pre-Conditions
+
+Success State: User is authenticated, contacts are imported, messages/pictures are downloaded from the external server
+Failed State: Failed authentication
+Primary Actor: User
+Secondary Actor: N/A
+
+Start Action: User starts login
+Description:
+1. User enters name and password
+2. Selects login button
+3. Authenticates with external server
+4. Load contact information and download messages/pictures
+5. Transition to main menu
+Variations:
+1. User enters invalid username/password
+2. Cannot connect to external server
+Extensions:
+Different source for contact information
+	+Facebook
+	+Phonebook
+Text messages used instead of central database server
+

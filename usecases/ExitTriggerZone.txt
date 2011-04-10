@@ -1,0 +1,24 @@
+Use Case: Exit Trigger Zone
+
+Goal: Alert user 
+Scope: Internal, UI
+Pre-Conditions: User has a todo and is inside the todo's "trigger zone"
+
+Success State: The user is alerted that a todo has not be completed
+Failed State: The user is not alerted
+Primary Actor: User
+Secondary Actor: N/A
+
+Start Action: User leaves a "trigger zone"
+Description:
+1. Alert the user that they have a pending todo message
+2. Display the todo and prompt the user to delete or accept the todo
+3. Remove or store the todo based on the users selection
+Variations:
+1. Alert is not sounded
+2. Todo is not displayed
+Extensions:
+1. How the user is alerted can be changed in settings
+2. How the message is displayed can be changed in settings
+
+

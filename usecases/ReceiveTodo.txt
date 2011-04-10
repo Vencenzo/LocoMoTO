@@ -1,0 +1,24 @@
+Use Case: Receive Todo	
+
+Goal: Receive todo
+Scope: Internal, External, UI
+Pre-Conditions: N/A
+
+Success State: The todo is recieved successfully
+Failed State: The todo was not received or received incorrectly
+Primary Actor: User
+Secondary Actor: External user/contact
+
+Start Action: User receives a todo by entering a "trigger zone"
+Description:
+1. Alert the user a todo has been received
+2. Display the todo
+3. Store the todo internally
+Variations:
+1. Alert is not sounded
+2. Message is not displayed
+Extensions:
+1. How the user is alerted can be changed in settings
+2. How the message is displayed can be changed in settings
+
+

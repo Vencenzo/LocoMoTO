@@ -1,0 +1,20 @@
+Use Case: Map View 
+
+Goal: Display map view screen
+Scope: UI
+Pre-Conditions: N/A
+
+Success State: Map view displayed with correct information
+Failed State: Map view does not display or displays with incorrect information
+Primary Actor: User		
+Secondary Actor: N/A
+
+Start Action: User selects map view from main screen or users wants to view a message on the map view
+Description:
+1. Transition to map view screen
+2. Display appropriate information
+Variations:
+1. Map view displays information in wrong geo location
+Extensions: N/A
+
+

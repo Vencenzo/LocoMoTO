@@ -1,0 +1,22 @@
+Use Case: 
+
+Goal: 
+Scope: 
+Pre-Conditions:
+
+Success State: 
+Failed State: 
+Primary Actor: 
+Secondary Actor: 
+
+Start Action: 
+Description:
+1. 
+2. 
+3. 
+Variations:
+1. 
+2.
+Extensions: 
+
+

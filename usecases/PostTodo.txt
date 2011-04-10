@@ -1,0 +1,23 @@
+Use Case: Post Todo	
+
+Goal: Post todo
+Scope: Internal, External, UI
+Pre-Conditions: Current screen is Map View
+
+Success State: The todo was posted successfully
+Failed State: The todo was not posted or posted incorrectly
+Primary Actor: User
+Secondary Actor: External user/contact
+
+Start Action: User selects post todo
+Description:
+1. User selects a friend(s) as the target of the todo
+	b. User types in the todo
+	c. User sets a time limit for the message 
+4. Todo is posted to external devices
+Variations:
+1. The todo is not sent to all users
+2. The time limit does not work correctly
+Extensions: N/A
+
+

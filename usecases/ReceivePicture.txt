@@ -1,0 +1,24 @@
+Use Case: Receive Picture	
+
+Goal: Receive picture
+Scope: Internal, External, UI
+Pre-Conditions: N/A
+
+Success State: The picture is recieved successfully
+Failed State: The picture was not received or received incorrectly
+Primary Actor: User
+Secondary Actor: External user/contact
+
+Start Action: User receives a picture by entering a "trigger zone"
+Description:
+1. Alert the user a message has been received
+2. Display the picture and caption
+3. Store the picture and caption internally
+Variations:
+1. Alert is not sounded
+2. Message is not displayed
+Extensions:
+1. How the user is alerted can be changed in settings
+2. How the message is displayed can be changed in settings
+
+
