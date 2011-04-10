@@ -1,0 +1,22 @@
+Use Case
+Settings
+
+Goal: Delete all information stored for the user
+Scope: External, UI
+Pre-Conditions: User has account
+Success State: All messages, pictures, customizations, and saved locations are deleted
+Failed State: No effect
+Primary Actor: User
+Secondary Actor: None
+Start Action: User activates "Clear All Data"
+Description:
+1. User is notified that all their data will be deleted, and asks if they are sure they want their information erased
+2. If user accepts:
+a. All messages, pictures, customizations, and saved locations that were created by the user is deleted from the external source
+3. If user declines:
+a. User is returned to the previous page
+Variations: None
+Extensions: 
+1. System may offer the options to select if the user wants only their messages, pictures, customizations, or saved locations to be deleted instead of all of the data
+2. Messages and pictures can are not deleted for friends that the user sent the messages and pictures to
+

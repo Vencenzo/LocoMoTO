@@ -1,0 +1,28 @@
+Use Case
+Friend Message Inbox
+
+Goal: User is able to see a friend's messages
+Scope: External, UI
+Pre-Conditions: User has account
+Success State: User can open a message sent from a friend see the message, and see where the location of the message
+Failed State: Message could not be loaded
+Primary Actor: User
+Secondary Actor: None
+Start Action: User selects a message
+Description:
+1. User is prompt with a map view of where the friend's message is tagged to
+2. User selects the message the is displayed on the map
+3. User is shown the message
+4. User may accept the message:
+a. User is prompt that the message has been accepted
+b. Message is tagged as accepted 
+c. Friend is notified that the message has been accepted
+d. Message is no longer unread
+5. User may decline message:
+a. User is prompt that the message has been declined
+b. Message is tagged as declined
+c. Friend is notified that the message has been declined
+d. Message is no longer unread
+Variations: None
+Extensions: None
+

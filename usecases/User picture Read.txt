@@ -1,0 +1,26 @@
+Use Case
+Friend Message Inbox
+
+Goal: User is able to see their picture message
+Scope: External, UI
+Pre-Conditions: User has account
+Success State: User can open a picture message sent from themselves, see the picture message, and see where the location of the message
+Failed State: Picture Message could not be loaded
+Primary Actor: User
+Secondary Actor: None
+Start Action: User selects a message
+Description:
+1. User is prompt with a map view of where their picture message is tagged to
+2. User selects the picture message the is displayed on the map
+3. User is shown the picture message
+4. User may accept the picture message:
+a. User is prompt that the picture message has been accepted
+b. Picture Message is tagged as accepted 
+c. Picture Message is no longer unread
+5. User may decline picture message:
+a. User is prompt that the message has been declined
+b. Picture Message is tagged as declined
+c. Picture Message is no longer unread
+Variations: None
+Extensions: None
+

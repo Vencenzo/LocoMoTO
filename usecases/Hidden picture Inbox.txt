@@ -1,0 +1,20 @@
+Use Case
+Hidden Picture Inbox
+
+Goal: All picture messages that have not yet been active are stored in the hidden inbox
+Scope: External, UI						
+Pre-Conditions: Creator send a picture message to a friend
+Success State: Picture Message is stored in hidden inbox and is activated once user enters specific location
+Failed State: No effect
+Primary Actor: User
+Secondary Actor: Friend
+Start Action: User sends a picture message to a friend
+Description:
+1. Picture Message is stored in hidden inbox
+2. If friend enters the specified location:
+a. Hidden inbox sends the message to the friend
+3. If picture message time has expired:
+a. User is notified that their picture message has expired and that the friend will no longer be notified
+b. Picture Message is removed from hidden inbox
+Variations: None
+Extensions: None

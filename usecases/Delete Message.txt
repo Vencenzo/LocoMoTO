@@ -1,0 +1,21 @@
+Use Case
+Delete Message
+
+Goal: User is able to delete a message
+Scope: External, UI
+Pre-Conditions: User has account
+Success State: User deletes a message that they have created, or a message that has been sent to them by a friend
+Failed State: Message could not be loaded
+Primary Actor: User
+Secondary Actor: None
+Start Action: User activates delete message
+Description:
+1. User is prompt asking if they want to delete the message
+2. If user accepts:
+a. Message is removed from the external server
+b. Creator of the message is notified that their message has been declined
+3. If user declines:
+a. User is returned to their inbox
+Variations: None
+Extensions: None
+

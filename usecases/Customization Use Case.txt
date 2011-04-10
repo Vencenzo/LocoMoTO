@@ -1,0 +1,22 @@
+Use Case
+Location Sensitive Inbox
+
+Goal: User is able to see all active Location Sensitive service customization
+Scope: External, UI						
+Pre-Conditions: User has account
+Success State: User is able to view and edit their customization
+Failed State: No effect
+Primary Actor: User
+Secondary Actor: None
+Start Action: Selects an active customization
+Description:
+1. User is shown the customization
+2. User can adjust the customization
+3. User saves customization:
+a. User is prompt that their customization has been saved
+b. Phone settings are changed to the user’s customization
+4. User cancels customization
+a. Customization is set back to its original settings
+b. User is returned to their inbox of customizations
+Variations: None
+Extensions: None
